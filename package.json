@@ -1,0 +1,19 @@
+{
+  "name": "orbe",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Fernando Ticona <thefersh24@gmail.com>",
+  "license": "MIT",
+  "private": true,
+  "workspaces": [
+    "packages/*",
+    "apps/*"
+  ],
+  "packageManager": "yarn@1.22.19",
+  "engines": {
+    "node": ">=16.0.0"
+  },
+  "devDependencies": {
+    "turbo": "^1.9.9"
+  }
+}
