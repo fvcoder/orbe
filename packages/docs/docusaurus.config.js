@@ -98,6 +98,10 @@ const config = {
         copyright: `Copyright © ${new Date().getFullYear()} fvcoder.`,
       },
     }),
+    i18n: {
+      defaultLocale: "es",
+      locales: ["es"],
+    }
 };
 
 module.exports = config;
