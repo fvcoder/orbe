@@ -12,6 +12,10 @@
  * and scoped locally.
  */
 
+ .textCenter {
+  text-align: center;
+ }
+
 .heroBanner {
   padding: 4rem 0;
   text-align: center;
